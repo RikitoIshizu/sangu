@@ -1,0 +1,200 @@
+@import "base.css";
+
+#main {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/index/bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#message2 p {
+  font-size: 15px;
+  padding-top: 15px;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+#message2 p a {
+	padding: 15px 30px 15px;
+	border: 1px solid #fff;
+  color: #fff;
+}
+
+#service {
+  padding-bottom: 20px;
+}
+
+#service_introduction {
+  background-color: #f8f8f8;
+}
+
+#service_contents {
+  padding: 40px 0 40px 0;
+  margin: 0 auto;
+}
+
+.service_list {
+	width: 900px;
+  margin: 0 10px;
+	padding-bottom: 30px;
+}
+
+.service_detail {
+	width: 300px;
+	padding: 10px;
+	float: left;
+}
+
+.service_detail img {
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.pd30 {
+	padding-bottom: 30px;
+}
+
+#service_introduction p {
+	font-size: 13px;
+	text-align: center;
+}
+
+.sub {
+	font-size: 18px;
+	padding: 10px;
+	color: #237abd;
+	text-align: center;
+}
+
+.sv_detail {
+	width: 300px;
+	float: left;
+}
+
+.sv_detail img {
+	width: 270px;
+	margin: 0 auto;
+	box-shadow: 5px 5px #237abd;
+}
+
+
+#recruit {
+	background-color: #f8f8f8;
+  padding-bottom: 20px;
+}
+
+.recruit_list {
+	width: 900px;
+  margin: 0 10px;
+	padding-bottom: 30px;
+}
+
+.recruit_detail {
+	width: 420px;
+	height: 150px;
+	float: left;
+}
+
+.recruit_detail img {
+	padding: 10px;
+	margin: 0 auto;
+}
+
+#recruit_button {
+	width: 450px;
+	height: 220px;
+	background-image: url("../img/index/recruit.png");
+	background-size: cover;
+	float: left;
+}
+
+#recruit_button img {
+	margin: 60px auto 20px;
+}
+
+#recruit_button p {
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+
+#company_button {
+	width: 450px;
+	height: 220px;
+	background-image: url("../img/index/company.png");
+	background-size: cover;
+	float: left;
+}
+
+#company_button img {
+	margin: 60px auto 20px;
+}
+
+#company_button p {
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+
+/* 以下RWD */
+@media(max-width:980px) {
+
+	#message {
+		width: 500px;
+		margin-top: 60px;
+		margin-bottom: 20px;
+	}
+
+  #message2 p {
+    margin: 0 auto;
+    color: #000;
+  }
+
+  #message2 p a {
+  	border: 1px solid #000;
+    color: #000;
+    background-color: #fff;
+  }
+
+  .service_list {
+  	width: 85%;
+    margin: 0 auto;
+  	padding-bottom: 30px;
+  }
+
+  .service_detail {
+  	width: 230px;
+  }
+
+  #service_introduction p {
+  	font-size: 10px;
+  }
+
+  .sv_detail {
+  	width: 232px;
+  }
+
+  .sv_detail img {
+  	width: 200px;
+  	margin: 0 auto;
+  	box-shadow: 5px 5px #237abd;
+  }
+
+  .recruit_list {
+    width: 705px;
+    margin: 0 auto;
+  }
+
+  #recruit_button {
+    width: 350px;
+  }
+
+  #company_button {
+    width: 350px;
+  }
+
+}

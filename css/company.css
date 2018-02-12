@@ -1,0 +1,68 @@
+@import "base.css";
+
+#header_style {
+	border-bottom: 1px solid #888888;
+}
+
+#border1 {
+  border-left: 1px solid #000;
+}
+
+#border2 {
+  border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+#border3 {
+	border-right: 1px solid #000;
+}
+
+#menu_company {
+	color: #237abd;
+}
+
+.menu_list {
+  color: #000;
+}
+
+#contact p {
+  color: #000;
+}
+
+.item p {
+  font-size: 20px;
+  color: #237abd;
+  border-bottom: 1px solid #237abd;
+}
+
+#detail table {
+  width: 920px;
+	padding: 20px 0;
+	margin: 0 auto;
+  border-bottom:1px solid #dddddd;
+}
+
+.tm1 {
+	width: 150px;
+}
+
+.tm2 {
+  padding: 30px 0;
+}
+
+.pt {
+	padding-top: 30px;
+}
+
+.pb {
+	padding-bottom: 30px;
+}
+
+/* 以下RWD */
+@media(max-width:980px) {
+
+	#detail table {
+	  width: 750px;
+	}
+
+}

@@ -1,0 +1,66 @@
+@import "base.css";
+
+#header_style {
+	border-bottom: 1px solid #888888;
+}
+
+#border1 {
+  border-left: 1px solid #000;
+}
+
+#border2 {
+  border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+#border3 {
+	border-right: 1px solid #000;
+}
+
+#nav li a {
+  color: #000;
+}
+
+#contact p {
+  color: #000;
+}
+
+#message {
+	width: 535px;
+  padding: 40px 0 30px 0;
+	margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+#title {
+	font-size: 40px;
+	text-align: center;
+	padding: 40px 0;
+	margin: 0 auto;
+	color: #237abd;
+}
+
+.item_title {
+	font-size: 16px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	border-bottom: 1px solid #dddddd;
+}
+
+
+.tm1 {
+  padding: 20px 60px 20px 0;
+}
+
+.tm2 {
+  padding:30px 0;
+}
+
+.tmwork {
+  line-height: 10px;
+}
+
+.bb {
+	padding-bottom: 50px;
+	border-bottom: 1px solid #dddddd;
+}

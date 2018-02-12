@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+/*---Reset---*/
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+/*クラス定義*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-table;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+*+html .clearfix{min-height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#header_style {
+  width: 1140px;
+  height: 65px;
+  margin: 0 auto;
+  padding-top: 10px;
+	border-bottom: 1px solid #fff;
+}
+
+#header_style img {
+	width: 224px;
+  background-color: #fff;
+  padding: 8px;
+  display: inline-block;
+}
+
+#message {
+	width: 535px;
+  padding: 40px 0 30px 0;
+	margin: 0 auto;
+}
+
+#contact {
+  float: right;
+}
+
+#contact p {
+  font-size: 17px;
+  line-height: 23px;
+  margin-bottom: 2px;
+  text-align: right;
+  color: #fff;
+}
+
+#nav {
+  padding: 23px;
+  list-style: none;
+  float: right;
+}
+
+#nav li {
+  width: 140px;
+  text-align: center;
+  display:inline;
+	list-style-type:none;
+  float: left;
+}
+
+#border1 {
+  border-left: 1px solid #fff;
+}
+
+#border2 {
+  border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+#border3 {
+	border-right: 1px solid #fff;
+}
+
+.menu_list {
+	text-decoration: none;
+  color: #fff;
+}
+
+.title {
+	font-size: 40px;
+	text-align: center;
+	padding-top: 40px 0;
+	margin: 0 auto;
+	color: #237abd;
+}
+
+.contents_area {
+  width: 920px;
+	margin: 0 auto;
+}
+
+.item {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.title {
+	font-size: 40px;
+	text-align: center;
+	padding-top: 40px;
+	margin: 0 auto;
+	color: #237abd;
+}
+
+.title_under {
+	padding-bottom: 40px;
+	margin: 0 auto;
+}
+
+footer a {
+	color: #000;
+}
+
+footer p {
+	padding: 30px 0 10px;
+	text-align: center;
+}
+
+
+/* 以下RWD */
+@media(max-width:980px) {
+
+	#header_style {
+	  width: 90%;
+	}
+
+	#nav {
+	  padding: 18px;
+	}
+
+	#nav li {
+	  width: 100px;
+	}
+
+	.contents_area {
+	  width: 820px;
+	}
+
+	.item {
+		width: 750px;
+	}
+
+}
